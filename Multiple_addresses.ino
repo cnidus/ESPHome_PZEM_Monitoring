@@ -4,8 +4,12 @@
    Pin 11 Rx (Connects to the Tx pin on the PZEM)
    Pin 12 Tx (Connects to the Rx pin on the PZEM)
 */
-PZEM004Tv30 pzem2(6, 7, 0x02); //rx tx address
-PZEM004Tv30 pzem3(6, 7, 0x03); //rx tx address
+PZEM004Tv30 pzem1(6, 7, 0x02); //rx tx address
+PZEM004Tv30 pzem2(6, 7, 0x03); //rx tx address
+PZEM004Tv30 pzem3(6, 7, 0x04); //rx tx address
+PZEM004Tv30 pzem4(6, 7, 0x05); //rx tx address
+PZEM004Tv30 pzem5(6, 7, 0x06); //rx tx address
+PZEM004Tv30 pzem6(6, 7, 0x07); //rx tx address
 
 void setup() {
   Serial.begin(9600);
